@@ -69,7 +69,7 @@
 // alert("Hello " + "Raiden Borunda" + ", welcome to the " + course + " class!");
 
 // STEP 14
-// var course = "JavaScript"; var name = "Raiden Borunda";
+// var name = "Raiden Borunda"; var course = "JavaScript";
 // alert("Hello " + name + ".\nWelcome to the " + course + " class!");
 
 // STEP 15
