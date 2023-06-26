@@ -6,10 +6,10 @@
 // let myLibraryFunction;
 
 // STEP 2
-// 3.14 = numberic literal expression
+// 3.14 = numeric literal expression
 // "I like Pie!" = string literal expression
 // true = Boolean literal expression
-// null = literal null expression
+// null = null literal expression
 
 // STEP 3
 // const x = 1 + 2 * 3;
@@ -36,12 +36,14 @@
 // console.log(firstCar);
 
 // STEP 7
-// var favoriteColor = myBoolean + color; console.log(favoriteColor);
-// var boilingWater = myBoolean + 212; console.log(boilingWater);
+// let favoriteColor = true + " Blue";
+// console.log(favoriteColor);
+// let boilingWater = false + 211; 
+// console.log(boilingWater);
 
 // STEP 8
 // I would make the following updates to get the string:
-// let someString = 'Who once said, \"Only two things are infinite, the universe and human stupidity, and I\'m not sure about the former.\"';
+// let someString = 'Who once said, "Only two things are infinite, the universe and human stupidity, and I\'m not sure about the former."';
 // window.console.log(someString);
 
 // STEP 9
@@ -67,12 +69,12 @@
 // alert("Hello " + "Raiden Borunda" + ", welcome to the " + course + " class!");
 
 // STEP 14
-// var course = "JavaScript"; var name = prompt("Please enter your name.");
-// alert("Hello " + "name" + "\nWelcome to the " + course + " class!");
+// var course = "JavaScript"; var name = "Raiden Borunda";
+// alert("Hello " + name + ".\nWelcome to the " + course + " class!");
 
 // STEP 15
-// var course = "JavaScript"; var name = prompt("Please enter your name.");
-// alert("Hello " + name + ".\nWelcome to the " + course + " class!");
+// var name = prompt("Please enter your name.");
+// alert("Hello " + name + ".\nWelcome to the JavaScript class!");
 
 // STEP 16
 // var name = prompt("Please enter your name."); var course = prompt("What class are you taking?");
