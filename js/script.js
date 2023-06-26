@@ -9,7 +9,7 @@
 // 3.14 = numberic literal expression
 // "I like Pie!" = string literal expression
 // true = Boolean literal expression
-// null = literal 
+// null = literal null expression
 
 // STEP 3
 // const x = 1 + 2 * 3;
