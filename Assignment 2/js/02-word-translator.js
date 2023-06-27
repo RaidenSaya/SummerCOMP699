@@ -7,4 +7,5 @@ if (languageCode == "en"){
         console.log("Hello World translated in Dutch is: Hallo Mensen");
 } else if (languageCode == "es") {
         console.log("Hello World translated in Spanish is: Hola Mundo");
-} else {console.log("Hello World translated in English is: Hello World");}
+} else {console.log("Hello World translated in English is: Hello World");
+}
