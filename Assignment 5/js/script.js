@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", () => {
-    document.getElementById("empForm").addEventListener("submit", function (event) {
+    document.getElementById("empForm").addEventListener("submit", (event) => {
         event.preventDefault();
 
         const id = document.getElementById("id").value
