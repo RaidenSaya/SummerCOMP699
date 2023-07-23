@@ -14,7 +14,7 @@ function calculate(num1, num2, operator) {
 // ADD FOUR PUBLIC FUNCTIONS BELOW
 
 // ADD FUNCTION
-function add (num1, num2) {
+function add(num1, num2) {
     return calculate(num1, num2, 'add');
 }
 // SUBTRACT FUNCTION
