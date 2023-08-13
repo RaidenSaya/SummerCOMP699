@@ -211,7 +211,6 @@ var showEmployees = function (employees) {
 showEmployees(employees)
 console.log('\n')
 //STEP 15
-var data
 function filterValues(arr) {
     return arr.filter(Boolean)
 }
