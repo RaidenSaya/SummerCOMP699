@@ -90,7 +90,9 @@ var leastFavMovies = [
     'The Last Jedi',
     'Jupiter Ascending'
 ];
-console.log('Movies I like:', '\n', '\n')
+movies.sort();
+leastFavMovies.sort();
+console.log('Movies I like:', '\n', '\n');
 for (let i of movies) {
     console.log(i);
 };
@@ -115,8 +117,7 @@ var leastFavMovies = [
     'Jupiter Ascending'
 ];
 movies = movies.concat(leastFavMovies)
-movies.sort()
-movies.reverse()
+movies.reverse().sort()
 for (let i of movies) {
     console.log(i);
 };
@@ -137,8 +138,7 @@ var leastFavMovies = [
     'Jupiter Ascending'
 ];
 movies = movies.concat(leastFavMovies)
-movies.sort()
-movies.reverse()
+movies.reverse().sort()
 
 var lastMovie = movies.pop()
 console.log(lastMovie);
@@ -159,9 +159,7 @@ var leastFavMovies = [
     'Jupiter Ascending'
 ];
 movies = movies.concat(leastFavMovies)
-movies.sort()
-movies.reverse()
-
+movies.reverse().sort()
 var lastMovie = movies.shift()
 console.log(lastMovie);
 console.log('\n');
@@ -182,6 +180,7 @@ console.log(movies.indexOf("Suicide Squad"), movies.indexOf("The Last Jedi"), mo
 movies[7] = "National Treasure"
 movies[8] = "National Lampoon's Christmas Vacation"
 movies[9] = "Nightmare Before Christmas"
+movies.sort()
 for (let i of movies) {
     console.log(i);
 };
